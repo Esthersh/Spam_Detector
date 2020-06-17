@@ -1,5 +1,8 @@
 #include <vector>
 
+#ifndef HASHMAP
+#define HASHMAP
+
 #define START_CAPACITY 16
 #define HIGHER_BOUND_FACTOR 0.75
 #define LOWER_BOUND_FACTOR 0.25
@@ -630,3 +633,6 @@ private:
         _table = temp;
     }
 };
+
+#endif
+
